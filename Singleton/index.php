@@ -11,6 +11,12 @@ $logsSingleton->gravarLog(['test33']);
 $logsSingletonTeste = LogsSingleton::obterInstancia();
 
 if ($logsSingletonTeste === $logsSingleton) {
+    var_dump($logsSingleton);
+    echo '<br>';
+    echo '<br>';
+    var_dump($logsSingletonTeste);
+    echo '<br>';
+
     echo 'As instâncias são exatamente as mesmas!';
 }
 
