@@ -14,32 +14,23 @@ class LogsSingleton
     /** @var self $instancia Instância da classe de logs. */
     protected static LogsSingleton $instancia;
 
-    /**
-     * DatabaseSingleton constructor.
-     */
+    
     private function __construct()
     {
 
     }
 
-    /**
-     * Magic method clone.
-     */
+ 
     private function __clone()
     {
-        // TODO: Implement __clone() method.
     }
 
-    /**
-     * Magic method wakeup.
-     */
     private function __wakeup()
     {
-        // TODO: Implement __wakeup() method.
     }
 
     /**
-     * self constructor.
+     * Controla instâncias.
      *
      * @return self
      */
@@ -53,7 +44,7 @@ class LogsSingleton
     }
 
     /**
-     * Método responsável por gravar logs.
+     * Grava os logs.
      *
      * @param array $dados
      */
