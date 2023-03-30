@@ -17,6 +17,12 @@ class AnelDeFogo extends PersonagemDecorator
     {
         parent::__construct($personagem);
         $this->ataque = 3;
+        $this->existeAnelDeFogo();
 
+    }
+
+    public function existeAnelDeFogo()
+    {
+     echo "Estou usando anel de fogo <br>";
     }
 }

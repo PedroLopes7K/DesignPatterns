@@ -18,4 +18,6 @@ class EspadaMagica extends PersonagemDecorator
         parent::__construct($personagem);
         $this->ataque = 5;
     }
+
+    
 }
